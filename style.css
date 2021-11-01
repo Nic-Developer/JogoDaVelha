@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;/* centraliza tudo*/
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: #eee;
+    display: inline-block; /* ocupa somente o espaço dele */
+    padding: 35px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+}
+
+.jogador, .vencedor {
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: #eee;
+    cursor: pointer;
+}
